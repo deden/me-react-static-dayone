@@ -1,0 +1,541 @@
+{
+"metadata" : {
+  "version" : "1.0"
+},
+"entries" : [
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809827777641,
+        "latitude" : -2.5524619279002185
+      },
+      "identifier" : "<-2.55246193,+112.94809828> radius 141.90",
+      "radius" : 141.89955044579349
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94809722900391,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524618625640869
+  },
+  "creationDate" : "2017-11-15T22:43:03Z",
+  "text" : "Day One\nYeah, this is my day one on Day One app.\nThis app really slick, superb design style and very  well ‘handcrafted’ in every pixel.\n\nI wonder if I can import my Calendar entries into this app.\nIn meanwhile I will find out, just a sec.",
+  "weather" : {
+    "sunsetDate" : "2017-11-16T10:14:02Z",
+    "temperatureCelsius" : 24,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 40,
+    "sunriseDate" : "2017-11-15T21:57:23Z",
+    "conditionsDescription" : "Mostly Sunny",
+    "pressureMB" : 1009,
+    "visibilityKM" : 7,
+    "relativeHumidity" : 100,
+    "windSpeedKPH" : 7,
+    "weatherCode" : "fair",
+    "windChillCelsius" : 24
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "6D558974A12B40D98552EF31BB00C166",
+  "tags" : [
+    "Day One"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809984713297,
+        "latitude" : -2.5524497098179335
+      },
+      "identifier" : "<-2.55244971,+112.94809985> radius 141.90",
+      "radius" : 141.89955045475054
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94809722900391,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524497032165527
+  },
+  "creationDate" : "2017-11-17T00:48:39Z",
+  "text" : "Day Two\nToday is my first attempt to pull request my code to an open source repo on Github. Hopefully, it can be approved by repo owner.\n\nYesterday I was thinking if I could import calendar entries into Day One app. However, after a few check, I felt it wouldn’t ever work, and perhaps will never be supported.\n\nThis morning I found a page on try.github.io. It contains a link to a basic git tutorial. I thought it okay for just refresh my git commands, and I give it a try for few minutes.\n\nThere are assignments in my Machine Learning course that I still need to complete. I’ll be working on that soon.",
+  "weather" : {
+    "sunsetDate" : "2017-11-17T10:14:18Z",
+    "temperatureCelsius" : 29,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 0,
+    "sunriseDate" : "2017-11-16T21:57:31Z",
+    "conditionsDescription" : "Partly Cloudy",
+    "pressureMB" : 1008,
+    "visibilityKM" : 48.280319213867188,
+    "relativeHumidity" : 84,
+    "windSpeedKPH" : 0,
+    "weatherCode" : "fair",
+    "windChillCelsius" : 29
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "14154CC5E0B9422A84C13052A42953F1",
+  "tags" : [
+    "Git",
+    "Day One",
+    "GitHub"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809990430738,
+        "latitude" : -2.552449711412307
+      },
+      "identifier" : "<-2.55244971,+112.94809990> radius 141.90",
+      "radius" : 141.89955045469884
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94809722900391,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524497032165527
+  },
+  "creationDate" : "2017-11-18T22:41:32Z",
+  "text" : "Day.. Day Teeth Pain\nIt began on Saturday noon. The pain was unbearable. I can’t even enjoy Timnas live broadcasting match against Syria on RCTI. Amazingly, after took mefenamic acid and metronidazole, that pain was gone immediately.\n\nThis morning I work on Coursera assignment tasks. It took almost 2 hours to complete. In the end, while submitting my tasks, I got a server error. Eventually, after looking at the solution in the official discussion forum, I got a thread that said if the problem was Coursera DNS migration.\n\nAt 11 AM, my wife and I bought a tiny device for her school. It's a portable Internet access device.\nLast night, we went to lab school for prepare examination sync. It took almost two hours to complete.",
+  "weather" : {
+    "sunsetDate" : "2017-11-19T10:14:52Z",
+    "temperatureCelsius" : 25,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 70,
+    "sunriseDate" : "2017-11-18T21:57:48Z",
+    "conditionsDescription" : "Mostly Sunny",
+    "pressureMB" : 1007,
+    "visibilityKM" : 7,
+    "relativeHumidity" : 100,
+    "windSpeedKPH" : 7,
+    "weatherCode" : "fair",
+    "windChillCelsius" : 25
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "9421239E4F824D7CA7CCDBFBF2038A7E",
+  "tags" : [
+    "Coursera"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94816165767497,
+        "latitude" : -2.5524670251549404
+      },
+      "identifier" : "<-2.55246703,+112.94816166> radius 141.90",
+      "radius" : 141.89955044257542
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94815826416016,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524671077728271
+  },
+  "creationDate" : "2017-11-19T23:04:55Z",
+  "text" : "It was three days ago\n\nAnd I still haven’t received any PR approved yet.",
+  "weather" : {
+    "sunsetDate" : "2017-11-20T10:15:10Z",
+    "temperatureCelsius" : 25,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 50,
+    "sunriseDate" : "2017-11-19T21:57:58Z",
+    "conditionsDescription" : "Mostly Cloudy",
+    "pressureMB" : 1008,
+    "visibilityKM" : 6,
+    "relativeHumidity" : 100,
+    "windSpeedKPH" : 9,
+    "weatherCode" : "mostly-cloudy",
+    "windChillCelsius" : 25
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "B433741CAB6746AA908824CC2668033A",
+  "tags" : [
+    "Git",
+    "GitHub"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809453502955,
+        "latitude" : -2.5524492511556067
+      },
+      "identifier" : "<-2.55244925,+112.94809454> radius 141.90",
+      "radius" : 141.89955045542089
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94809722900391,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524492263793945
+  },
+  "creationDate" : "2017-11-20T22:41:39Z",
+  "text" : "My fetch repo update, now I learn how to keep my local repo synced with new update.\nThe remote repo was updated, and you know what? My PR was approved, see https:\/\/github.com\/infinitered\/ignite\/pull\/1188, now I need to learn how to keep my local repo synced with the new update.\n\nYesterday was a bit terrible. My online course was almost running out of the schedule. So I needed to force my self to worked on it until late night.\n\nYeay! I bought my personal domain \"deden.me\", at $2.99 yesterday. Hopefully, I can set up this site today. I've planned to use Hugo as the web framework. This personal site should be a static site, so it should be easier to let me work on it.\n\nEventually, after researching at GitHub, I found a react static generator, named Gatsby library. It seems similar with Hugo, unless it based on React, whereas Hugo developed from Golang.\n\n> Next ideas are a small business, or one-person startup, and vision plus skillset.\n\nThis article shows good stories about how one person can build their startup, https:\/\/smallbiztrends.com\/2014\/07\/successful-one-person-startups.html. \nMany successful businesses started with just one person who had a vision and the technical skills to deliver it to the world.\nEven some of largest companies in the world like eBay and Amazon began with one tech-savvy founder. It must have taken a super amount of work, regardless their vision, skills, and talent.\n\nBtw, I’ve made a gist contains curated links of repo related with my researches on Machine Learning and AI topics. Here's the link https:\/\/gist.github.com\/deden\/dca216c6438c2258336b51dbf764d6a1.",
+  "weather" : {
+    "sunsetDate" : "2017-11-21T10:15:29Z",
+    "temperatureCelsius" : 24,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 70,
+    "sunriseDate" : "2017-11-20T21:58:09Z",
+    "conditionsDescription" : "Light Rain",
+    "pressureMB" : 1008,
+    "visibilityKM" : 6,
+    "relativeHumidity" : 100,
+    "windSpeedKPH" : 7,
+    "weatherCode" : "rain",
+    "windChillCelsius" : 24
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "D04F282C8E094341A4B140235A66C2E1",
+  "tags" : [
+    "Git",
+    "Gatsby",
+    "GitHub"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809286095983,
+        "latitude" : -2.552448344572317
+      },
+      "identifier" : "<-2.55244834,+112.94809286> radius 141.90",
+      "radius" : 141.89955045663029
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94808959960938,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524482727050781
+  },
+  "creationDate" : "2017-11-21T22:41:21Z",
+  "text" : "Envato!!\n\nGraphical restaurant reservation system\nhttp:\/\/www.ideaswatch.com\/startup-idea\/graphical-restaurant-reservation-system\n\nA reservation system for pubs and restaurants that would allow you to see a graphical layout of the establishment. You would see what tables are available at what times and you’d be able to book a specific table for a specific time. You could do it on the web or using a mobile app without needing to call the restaurant. You  can pick your seats on a plane, why not a restaurant?\n\nKey Features :\n- You can develop your app for both iOS and Android platforms once with React Native. Make development faster and effective with this template.\n- Cool animation\n- Excellent UX\n- Auto Layout\n\n\n## CodeCanyon guidelines:\n> Ensure your app is focused on improving workflow for developers.\n\nConsider supporting universal and multipurpose template. In example: The layout of the menu is completely customisable (icon, titles, sections), in addition you can add as many items to the menu as you like.",
+  "weather" : {
+    "sunsetDate" : "2017-11-22T10:15:48Z",
+    "temperatureCelsius" : 24,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 40,
+    "sunriseDate" : "2017-11-21T21:58:21Z",
+    "conditionsDescription" : "Mostly Sunny",
+    "pressureMB" : 1006,
+    "visibilityKM" : 6,
+    "relativeHumidity" : 100,
+    "windSpeedKPH" : 7,
+    "weatherCode" : "fair",
+    "windChillCelsius" : 24
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "90346359A1F149E6AF4E22C269925227",
+  "tags" : [
+    "Envato"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809401079519,
+        "latitude" : -2.5524492739402356
+      },
+      "identifier" : "<-2.55244927,+112.94809401> radius 141.90",
+      "radius" : 141.89955045643046
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94809722900391,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524492263793945
+  },
+  "creationDate" : "2017-11-22T22:41:58Z",
+  "text" : "Refreshing React is important!\n\nI’ve just realized that I was already involved too far in the beginning of React in  2015 days.\n\nHere’s recap today :\n* I must collect all places and resources about React ecosystem. A better comprehensive place at https:\/\/reactjs.org\n* It will need a strategic approach to rehydrate my React knowledge. In the beginning, it will better if I separate Redux first. So the difference will be clear on how I treat React with or without Redux, also it will help me to understand why there are some functions or patterns were exist in a certain way.\n* Dan Abramov’s Redux courses now available for free at https:\/\/egghead.io\/redux\n* Thanks to Ryan Florence, co-author of React Router, for making his free Advance React course videos available at https:\/\/reacttraining.com\/patterns\/\n* There is no perfect time to start to focus on React development rather than now. I must focus on this area since now.\n* Both React and React Native is best skills as the investment for next couple of years. Its potential will help me to exist and survive for this decade.",
+  "weather" : {
+    "sunsetDate" : "2017-11-23T10:16:09Z",
+    "temperatureCelsius" : 25,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 210,
+    "sunriseDate" : "2017-11-22T21:58:33Z",
+    "conditionsDescription" : "Light Rain",
+    "pressureMB" : 1007,
+    "visibilityKM" : 6,
+    "relativeHumidity" : 94,
+    "windSpeedKPH" : 2,
+    "weatherCode" : "rain",
+    "windChillCelsius" : 25
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "6DAFC60E13AB4B63B24C1C8EC12DE18E",
+  "tags" : [
+    "React",
+    "React Native"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809257043465,
+        "latitude" : -2.5524487134984923
+      },
+      "identifier" : "<-2.55244871,+112.94809257> radius 141.90",
+      "radius" : 141.89955045263468
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94808959960938,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524487495422363
+  },
+  "creationDate" : "2017-11-24T05:19:50Z",
+  "text" : "Friday streaks!\nWhat I’ve done today?\n* Submit an issue to react-native-elements repo regarding Expo client issue on Official demo app : [link](https:\/\/github.com\/react-native-training\/react-native-elements\/issues\/727#issuecomment-346741665)\n* React pattern centralised PropTypes. https:\/\/medium.freecodecamp.org\/react-pattern-centralized-proptypes-f981ff672f3b\n* Great self development articles, 30 Behaviours that will make you unstoppable. https:\/\/medium.com\/personal-growth\/30-behaviors-that-will-make-you-unstoppable-699b51ce87b3\n* This is a great place : http:\/\/reactpatterns.com\/\n* List of design patterns\/techniques used while developing with React : https:\/\/github.com\/krasimir\/react-in-patterns\n\nThanks for Envato free items :\n1. Definite HTML template\n2. Bosk Brush Font\n3. Urban Timelapse Track.\n4. Plexus Titles AfterEffect\n5. Bitcoin Live - PHP script.\n\nLast night I was installed Flinto, a prototyping mobile app. This app offers flexibility for create transitions, behaviour and UI animation.",
+  "weather" : {
+    "sunsetDate" : "2017-11-24T10:16:29Z",
+    "temperatureCelsius" : 26,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 250,
+    "sunriseDate" : "2017-11-23T21:58:47Z",
+    "conditionsDescription" : "Scattered Storms",
+    "pressureMB" : 1008,
+    "visibilityKM" : 2,
+    "relativeHumidity" : 94,
+    "windSpeedKPH" : 15,
+    "weatherCode" : "thunderstorm",
+    "windChillCelsius" : 26
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "3BB8464D81464683866C7070CA01C88A",
+  "tags" : [
+    "Personal Growth",
+    "React",
+    "Flinto",
+    "GitHub",
+    "Envato"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809276528139,
+        "latitude" : -2.5524486697077444
+      },
+      "identifier" : "<-2.55244867,+112.94809277> radius 141.90",
+      "radius" : 141.89955045548876
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94808959960938,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524487495422363
+  },
+  "creationDate" : "2017-11-24T22:44:12Z",
+  "text" : "Hi, I hope this day will be a good day.\nYesterday I was finished my week 4 Coursera quiz with 4 attempts! What the heck? The quiz questions were very difficult. I thought the video material on week 4 really compact and only explain the introduction of Neural Network concept in not detailed manner.\n\nTo be continued...\n\nBefore I forgot\nhttps:\/\/codesandbox.io\/u\/deden\nhttps:\/\/codepen.io\/deden\/\nhttps:\/\/webflow.com\/deden\n\nThe community on those places was stunning! Check more often if you need to seek inspiration.\n\nAbout DYGA, I like this slogan :\n> Focus in :\n* UX Design\n* Interactive UI\n* Mobile apps and web products\n\nNeed more revision though. 💅🏻",
+  "weather" : {
+    "sunsetDate" : "2017-11-25T10:16:51Z",
+    "temperatureCelsius" : 25,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 40,
+    "sunriseDate" : "2017-11-24T21:59:01Z",
+    "conditionsDescription" : "Mist and Fog",
+    "pressureMB" : 1008,
+    "visibilityKM" : 4.0999999046325684,
+    "relativeHumidity" : 94,
+    "windSpeedKPH" : 9,
+    "weatherCode" : "fog",
+    "windChillCelsius" : 25
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "53CB0B856F1D44E3B10650130B9E07E6",
+  "tags" : [
+    "Coursera"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94825734077344,
+        "latitude" : -2.552298458463933
+      },
+      "identifier" : "<-2.55229846,+112.94825734> radius 141.90",
+      "radius" : 141.89955057051898
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94825744628906,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5522985458374023
+  },
+  "creationDate" : "2017-11-26T22:50:25Z",
+  "text" : "It’s Monday, let’s prototyping!\n\nCome on, take your spirit out to the sky!\nThere are many stuffs to learn, grasp every knowledge, train your skill!\n\nDon’t waste your time today!\n\nInspiring things I’ve just found :\n* Ramotion agency. This agency is amazing. Their portfolios shows many great UI interactions and detailed animations. With superb taste on  design. For me they simply show what Interactive Design is.\n* React Virtualized. This React components claims the efficiency while rendering large list and tabular data.\n\nI feel the urgency of need to know how React libraries made of.\nNeed to learn about it asap.\n\n**Rapid Efficient Prototyping**\nThe key is `Rapid Efficient Prototyping `\nRead this :\n* [Prototyping the right way (introduction to effective prototyping – part 1)](https:\/\/blog.pidoco.com\/2016\/09\/30\/prototyping-the-right-way-introduction-to-effective-prototyping-part-1\/)\n* [Rapid prototyping: an efficient way to collaboratively\ndesign and develop e-learning content](http:\/\/www.guyboulet.net\/site\/docs\/Rapid_prototyping.pdf)\n\n**Here’s the my initial concept**\nThe key is `sticky` title \nVertical content with scroll, made of contents : \n* top nav bar\n* section\n* section\n* ... sections\n* bottom bar\n\nEach section should have a sticky section title.\nEach section will have individual background colour. This colour should be changed by gradual transition with scrolling.",
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "23DD3456E7F74D2C8BF4300017C8BC77",
+  "tags" : [
+    "React",
+    "React Native",
+    "Prototyping"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809369638662,
+        "latitude" : -2.5524473692046339
+      },
+      "identifier" : "<-2.55244737,+112.94809370> radius 141.90",
+      "radius" : 141.89955045831559
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94809722900391,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524473190307617
+  },
+  "creationDate" : "2017-11-27T03:32:01Z",
+  "text" : "Whoa, what I’ve done?\nAlmost forgot about :\n* yarn link\n* ramda\n* `git cherry-pick`, pick from fetched repo\n* [next.js](https:\/\/github.com\/zeit\/next.js), a minimalistic framework for server-rendered React applications, with 19K stars on GitHub\n* [react-static](https:\/\/github.com\/nozzle\/react-static), a progressive static-site framework for React, with 2.6K stars on GitHub",
+  "weather" : {
+    "sunsetDate" : "2017-11-27T10:17:36Z",
+    "temperatureCelsius" : 25,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 230,
+    "sunriseDate" : "2017-11-26T21:59:33Z",
+    "conditionsDescription" : "Rain",
+    "pressureMB" : 1008,
+    "visibilityKM" : 7,
+    "relativeHumidity" : 100,
+    "windSpeedKPH" : 7,
+    "weatherCode" : "rain",
+    "windChillCelsius" : 25
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "3A9F74653D7144E9A5DCA38295C4A392",
+  "tags" : [
+    "Git",
+    "react-static",
+    "next.js",
+    "GitHub"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809367308636,
+        "latitude" : -2.552447037841941
+      },
+      "identifier" : "<-2.55244704,+112.94809367> radius 141.90",
+      "radius" : 141.89955045706711
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94809722900391,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524470806121826
+  },
+  "creationDate" : "2017-11-27T22:20:36Z",
+  "text" : "Tuesday, prototyping in efficient and productive way\n\nLearner learns by write a book & sale it for another learners. They generate income by selling it.\n\nWhereas you can learn by making a prototype, convert it into a template, and sell it to learners, beginner, agencies and of course all lazy people who have a few interest.\n\nHere’s a list of book authors :\n* [Ole Beggman](https:\/\/twitter.com\/olebegemann) : Advanced Swift, `updated for Swift 4`\n\nHere’s a list of tutorial authors:\n* [Michael Chan](https:\/\/learnreact.com\/) : A series of React video tutorial in a website.\n* [SwiftTalk](https:\/\/talk.objc.io\/) : A weekly video series on Swift programming.",
+  "weather" : {
+    "sunsetDate" : "2017-11-28T10:17:59Z",
+    "temperatureCelsius" : 25,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 40,
+    "sunriseDate" : "2017-11-27T21:59:50Z",
+    "conditionsDescription" : "Cloudy",
+    "pressureMB" : 1006,
+    "visibilityKM" : 48.280319213867188,
+    "relativeHumidity" : 100,
+    "windSpeedKPH" : 9,
+    "weatherCode" : "cloudy",
+    "windChillCelsius" : 25
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "3AF4453D0B5846BAB29801C1B86E3A1F",
+  "tags" : [
+    "Prototyping"
+  ],
+  "duration" : 0
+},
+{
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 112.94809404606252,
+        "latitude" : -2.5524469449654319
+      },
+      "identifier" : "<-2.55244694,+112.94809405> radius 141.90",
+      "radius" : 141.89955045660412
+    },
+    "country" : "Indonesia",
+    "timeZoneName" : "Asia\/Pontianak",
+    "administrativeArea" : "South Borneo",
+    "longitude" : 112.94809722900391,
+    "placeName" : "Jalan Manggis 2",
+    "latitude" : -2.5524468421936035
+  },
+  "creationDate" : "2017-11-28T00:36:59Z",
+  "text" : "Writing in a journal is impactful practice to incorporate into your life.\nIt can provide insight into:\n* your deepest desires\n* empower intentions.\n* energy blockages\n* transformation.\n\nEvery ten minutes to journal each day allows you to check in, express your emotions and redirect your focus.\n\nThis mindfulness exercise develops your ability to focus on the person moment and connect with your deeper self.\n\nWith the power of journaling, you able to re-center and keep intentions at the forefront of your mind.\n\nEvery morning, write down a small intention that is going to help you achieve a long term goal. Then before bed, check in with that day’s intention :\n* What went well? \n* What did you struggle with?\n* What can you change for the next day?\n\nNoticing the things that help or prevent you having success with your intentions will direct you on your journey and change your old habits.\n\nEnergy blockages such as :\n* Emotional and mental trauma\n* Physical ailments\nEnergy blockage are created when we believe, think, or act a certain way due to things that have happened to us.\n\nThe power of journaling allows you to explore these deeply personal experiences without having to open up to others, which can be extremely therapeutic.\n\nOne of our favourite aspects of writing in a journal is simply having time dedicated to our selves each day.\n\nNot everything you write has to be profound, eye-opening, or life-changing.\n\nSimply writing down : \n* what happened that day\n* what you are thankful for\n* something that inspired you\n* inspirational quote and why it resonates with you.\n\nWriting is a personal way to track your growth. Months, or even years, down the road, you can look back on old journal posts and see how your beliefs, actions and interests have changed since your first started the journal.\n\n> Everyday is an opportunity for self growth and exploration. Take advantage of the gift of life in the present moment and do something that fulfils you each day.",
+  "weather" : {
+    "sunsetDate" : "2017-11-28T10:17:59Z",
+    "temperatureCelsius" : 25,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 40,
+    "sunriseDate" : "2017-11-27T21:59:50Z",
+    "conditionsDescription" : "Mostly Cloudy",
+    "pressureMB" : 1008,
+    "visibilityKM" : 48.280319213867188,
+    "relativeHumidity" : 100,
+    "windSpeedKPH" : 11,
+    "weatherCode" : "mostly-cloudy",
+    "windChillCelsius" : 25
+  },
+  "timeZone" : "Asia\/Pontianak",
+  "uuid" : "02901795B18149509E5736F49E09E40D",
+  "tags" : [
+    "Personal Growth",
+    "Day One"
+  ],
+  "duration" : 0
+}
+]}

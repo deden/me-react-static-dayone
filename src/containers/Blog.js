@@ -10,8 +10,8 @@ export default getRouteProps(({ posts }) => (
     All Posts:
     <ul>
       {posts.map(post => (
-        <li key={post.id}>
-          <Link to={`/blog/post/${post.id}/`}>{post.title}</Link>
+        <li key={post.uuid}>
+          <Link to={`/blog/post/${post.url}/`}>{post.title}</Link>
         </li>
       ))}
     </ul>

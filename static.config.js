@@ -1,11 +1,25 @@
 /* eslint-disable react/no-danger */
-import axios from 'axios'
-import React, { Component } from 'react'
-import { renderStaticOptimized } from 'glamor/server'
+import fs from 'fs-extra'
 
 export default {
+  getSiteProps: () => ({
+    title: 'React TM Static',
+  }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
+    const journal = await fs.readJson('public/Journal.json')
+    const entries = journal.entries
+    const posts = entries.map(entry => {
+      const text = entry.text
+      const title = text.substr(0, text.indexOf('\n'))
+      const body = text.substr(text.indexOf('\n') + 1)
+      const url = title.replace(/[^a-z0-9]/gi, '_').toLowerCase()
+      return {
+        ...entry,
+        title,
+        body,
+        url,
+      }
+    })
     return [
       {
         path: '/',
@@ -22,7 +36,7 @@ export default {
           posts,
         }),
         children: posts.map(post => ({
-          path: `/post/${post.id}`,
+          path: `/post/${post.url}`,
           component: 'src/containers/Post',
           getProps: () => ({
             post,
@@ -34,29 +48,5 @@ export default {
         component: 'src/containers/404',
       },
     ]
-  },
-  renderToHtml: async (render, Comp, meta) => {
-    const html = render(<Comp />)
-    const { css } = renderStaticOptimized(() => html)
-    meta.glamStyles = css
-    return html
-  },
-  Document: class CustomDocument extends Component {
-    render () {
-      const { Html, Head, Body, children, renderMeta } = this.props
-
-      return (
-        <Html>
-          <Head>
-            <meta charSet="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <style dangerouslySetInnerHTML={{ __html: renderMeta.glamStyles }} />
-          </Head>
-          <Body>
-            {children}
-          </Body>
-        </Html>
-      )
-    }
   },
 }

@@ -8,9 +8,9 @@ const LogoImage = glamorous.img({
   maxWidth: '100%',
 })
 
-export default getSiteProps(() => (
+export default getSiteProps(({ title }) => (
   <div>
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
+    <h1 style={{ textAlign: 'center' }}>{ title }</h1>
     <LogoImage src={logoImg} alt="" />
   </div>
 ))

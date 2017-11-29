@@ -1,5 +1,6 @@
 /* eslint-disable react/no-danger */
 import fs from 'fs-extra'
+import formattedEntry from './src/utils/formattedEntry'
 
 export default {
   getSiteProps: () => ({
@@ -7,19 +8,7 @@ export default {
   }),
   getRoutes: async () => {
     const journal = await fs.readJson('public/Journal.json')
-    const entries = journal.entries
-    const posts = entries.map(entry => {
-      const text = entry.text
-      const title = text.substr(0, text.indexOf('\n'))
-      const body = text.substr(text.indexOf('\n') + 1)
-      const url = title.replace(/[^a-z0-9]/gi, '_').toLowerCase()
-      return {
-        ...entry,
-        title,
-        body,
-        url,
-      }
-    })
+    const posts = journal.entries.map(entry => formattedEntry(entry))
     return [
       {
         path: '/',

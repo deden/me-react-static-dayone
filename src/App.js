@@ -1,8 +1,11 @@
 import React from 'react'
 import { Router, Link } from 'react-static'
-import glamorous from 'glamorous'
-//
 import Routes from 'react-static-routes'
+import glamorous from 'glamorous'
+
+import { Provider } from 'react-redux'
+import store from './connectors/redux'
+//
 
 import './app.css'
 
@@ -33,16 +36,18 @@ const AppStyles = glamorous.div({
 })
 
 export default () => (
-  <Router>
-    <AppStyles>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-      </nav>
-      <div className="content">
-        <Routes />
-      </div>
-    </AppStyles>
-  </Router>
+  <Provider store={store}>
+    <Router>
+      <AppStyles>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/blog">Blog</Link>
+        </nav>
+        <div className="content">
+          <Routes />
+        </div>
+      </AppStyles>
+    </Router>
+  </Provider>
 )

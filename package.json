@@ -29,5 +29,6 @@
     "react-addons-test-utils": "^15.6.2",
     "serve": "^6.1.0",
     "tailwindcss": "^0.2.2"
-  }
+  },
+  "eslintIgnore": ["tailwind.js"]
 }

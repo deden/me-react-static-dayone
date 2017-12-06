@@ -6,4 +6,3 @@ This example includes:
 - Journal json file imports
 - Automatic Routing
 
-To get started, run `react-static create`

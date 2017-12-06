@@ -1,53 +1,34 @@
+/* global tw */
 import React from 'react'
 import { Router, Link } from 'react-static'
-import Routes from 'react-static-routes'
+import { css } from 'glamor'
 import glamorous from 'glamorous'
+
+import Routes from 'react-static-routes'
 
 import { Provider } from 'react-redux'
 import store from './connectors/redux'
-//
 
-import './app.css'
 
-const AppStyles = glamorous.div({
-  fontFamily:
-    "'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif",
-  fontWeight: '300',
-  fontSize: '16px',
-  margin: '0',
-  padding: '0',
-  '& a': {
-    textDecoration: 'none',
-    color: '#108db8',
-    fontWeight: 'bold',
-  },
-  '& nav': {
-    width: '100%',
-    background: '#108db8',
-    '& a': {
-      color: 'white',
-      padding: '1rem',
-      display: 'inline-block',
-    },
-  },
-  '& .content': {
-    padding: '1rem',
-  },
-})
+css.global('html, body', tw('font-demo-serif font-light text-base m-0 p-0'))
+css.global('a', tw('no-underline text-demo-color font-bold'))
+const NavStyled = glamorous.nav(tw('w-full bg-demo-color'))
+const LinkStyled = glamorous(Link)(tw('text-white p-4 inline-block'))
+const Content = glamorous.div(tw('p-4'))
 
 export default () => (
   <Provider store={store}>
     <Router>
-      <AppStyles>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/blog">Blog</Link>
-        </nav>
-        <div className="content">
+      <div>
+        <NavStyled>
+          <LinkStyled to="/">Home</LinkStyled>
+          <LinkStyled to="/about">About</LinkStyled>
+          <LinkStyled to="/blog">Blog</LinkStyled>
+        </NavStyled>
+        <Content>
           <Routes />
-        </div>
-      </AppStyles>
+        </Content>
+      </div>
     </Router>
   </Provider>
 )

@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "react-static start",
-    "build": "react-static build",
+    "start": "npm run generate:tailwindcss && react-static start",
+    "build": "nom run generate:tailwindcss && react-static build",
     "serve": "serve dist -p 3000",
+    "generate:tailwindcss": "postcss ./tailwind.css -o ./tailwind.custom.css",
     "test": "mocha './tests/**/*.spec.js' --require babel-core/register"
   },
   "dependencies": {
@@ -23,10 +24,13 @@
     "redux": "^3.7.2"
   },
   "devDependencies": {
+    "babel-plugin-tailwind": "^0.1.8",
     "eslint-config-react-tools": "1.x.x",
     "expect": "^21.2.1",
     "mocha": "^4.0.1",
+    "postcss-cli": "^4.1.1",
     "react-addons-test-utils": "^15.6.2",
-    "serve": "^6.1.0"
+    "serve": "^6.1.0",
+    "tailwindcss": "^0.2.2"
   }
 }

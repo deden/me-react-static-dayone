@@ -1,4 +1,3 @@
-/* global tw */
 import React from 'react'
 import { Router, Link } from 'react-static'
 import { css } from 'glamor'

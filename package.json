@@ -11,16 +11,16 @@
     "test": "mocha './tests/**/*.spec.js' --require babel-core/register"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.17.1",
     "glamor": "^2.20.40",
-    "glamorous": "^4.9.7",
+    "glamorous": "^4.11.2",
     "prop-types": "^15.6.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-markdown-renderer": "^1.4.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
-    "react-static": "^4.3.0",
+    "react-static": "^4.8.3",
     "redux": "^3.7.2"
   },
   "devDependencies": {
@@ -30,7 +30,7 @@
     "mocha": "^4.0.1",
     "postcss-cli": "^4.1.1",
     "react-addons-test-utils": "^15.6.2",
-    "serve": "^6.1.0",
-    "tailwindcss": "^0.2.2"
+    "serve": "^6.4.3",
+    "tailwindcss": "^0.4.0"
   }
 }
